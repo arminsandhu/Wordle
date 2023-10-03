@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wordle</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <script src="./wordle.js"></script>
+  </body>
+</html>
+
+<body>
+  <div class="linkWrapper">
+    <h1>
+      Wordle
+    </h1>
+    <div class="link-buttons">
+      <div class="button">
+        <button id="darkMode">&#9681;</button>
+      </div>
+      <div class="button">
+        <button id="hint">&#63;</button>
+      </div>
+      <div class="button">
+        <button id="side">&#9432;</button>
+      </div>
+    </div>
+  </div>
+  <div class="bodyWrapper">
+      <div class="leftSide">
+        <table id="display">
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="button">
+          <button id="toggle">Start Over</button>
+        </div>
+      </div>
+      <div id="sidebar">
+        <h2>
+          How To Play
+        </h2>
+        <ul>
+          <li>Start typing. The letters will appear in the boxes</li>
+          <li>Remove letters with Backspace</li>
+          <li>Hit Enter/Return to submit an answer</li>
+          <li>Letters with green backgrounds are in the right spot</li>
+          <li>Letters with yellow backgrounds exist in the word, but are in the wrong spot</li>
+          <li>Letters with gray backgrounds do not exist in the word</li>
+          <li>If you need a hint, click the ? icon</li>
+        </ul>
+      </div>
+  </div>
+  <div id="popUp">
+    <p>
+      yuh
+    </p>
+  </div>
+  <div class="bottom">
+    <p>
+        @ Armin Sandhu 2023
+    </p>
+  </div>
+</body>
